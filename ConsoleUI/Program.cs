@@ -13,7 +13,7 @@ namespace ConsoleUI
             {
                 Console.WriteLine(car.ModelYear);
             }
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }

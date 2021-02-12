@@ -10,3 +10,5 @@ C:\Users\Asus\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.0\Data
 C:\Users\Asus\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\Asus\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\Asus\source\repos\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Asus\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Asus\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb

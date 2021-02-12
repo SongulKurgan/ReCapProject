@@ -12,3 +12,5 @@ C:\Users\Asus\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Busine
 C:\Users\Asus\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\Asus\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\Asus\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\Asus\source\repos\ReCapProject\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Asus\source\repos\ReCapProject\Business\bin\Debug\netstandard2.0\Core.pdb

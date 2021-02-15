@@ -28,7 +28,7 @@ namespace Business.Concrete
             }
             else
             {
-                return new ErrorResult(Messages.CarDailyPriceInvalid);
+                return new ErrorResult(Messages.FailedCarAddOrUpdate);
             }
             
 
@@ -85,7 +85,7 @@ namespace Business.Concrete
             }
             else
             {
-                return new ErrorResult(Messages.CarDailyPriceInvalid);
+                return new ErrorResult(Messages.FailedCarAddOrUpdate);
             }
             
         }

@@ -25,7 +25,7 @@ namespace Business.Concrete
                 _brandDal.Add(brand);
                 return new  SuccessResult(Messages.BrandAdded);
             }
-            return new ErrorResult(Messages.BrandNameInvalid);
+            return new ErrorResult(Messages.FailedBrandAddOrUpdate);
         }
 
         public IResult Delete(Brand brand)
@@ -51,7 +51,7 @@ namespace Business.Concrete
                 _brandDal.Update(brand);
                 return new SuccessResult(Messages.BrandUpdated);
             }
-            return new SuccessResult(Messages.BrandNameInvalid);
+            return new SuccessResult(Messages.FailedBrandAddOrUpdate);
         }
     }
 }

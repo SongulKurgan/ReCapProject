@@ -29,7 +29,7 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result.Message);
         }
-        [HttpDelete]
+        [HttpDelete("delete")]
         public IActionResult Delete(Color color)
         {
             var result = _colorService.Delete(color);
@@ -40,7 +40,7 @@ namespace WebAPI.Controllers
             return BadRequest(result.Message);
         }
 
-        [HttpGet]
+        [HttpGet("getall")]
         public IActionResult GetAll()
         {
             var result = _colorService.GetAll();
@@ -50,7 +50,7 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result.Message);
         }
-        [HttpGet]
+        [HttpGet("getbyid")]
         public IActionResult GetById(int id)
         {
             var result = _colorService.GetById(id);

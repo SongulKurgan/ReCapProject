@@ -19,7 +19,7 @@ namespace WebAPI.Controllers
         {
             _carService = carService;
         }
-        [HttpDelete]
+        [HttpPost("add")]
         public IActionResult Add(Car car)
         {
             var result = _carService.Add(car);
@@ -30,7 +30,7 @@ namespace WebAPI.Controllers
             return BadRequest(result.Message);
         }
 
-        [HttpPut]
+        [HttpDelete("delete")]
         public IActionResult Delete(Car car)
         {
             var result = _carService.Delete(car);
@@ -41,7 +41,7 @@ namespace WebAPI.Controllers
             return BadRequest(result.Message);
         }
         
-        [HttpGet]
+        [HttpGet("getall")]
         public IActionResult GetAll()
         {
             var result = _carService.GetAll();
@@ -51,7 +51,7 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result.Message);
         }
-        [HttpGet]
+        [HttpGet("getbyid")]
         public IActionResult GetById(int id)
         {
             var result = _carService.GetById(id);
@@ -61,7 +61,7 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result.Message);
         }
-        [HttpGet]
+        [HttpGet("getallcardetails")]
         public IActionResult GetAllCarDetails()
         {
             var result = _carService.GetCarDetails();
@@ -71,7 +71,7 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result.Message);
         }
-        [HttpPost]
+        [HttpPut("update")]
         public IActionResult Update(Car car)
         {
             var result = _carService.Update(car);

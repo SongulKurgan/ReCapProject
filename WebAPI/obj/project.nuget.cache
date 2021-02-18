@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uVaGjT/2D0LMrsay+Y/+W9JgSArSseeKZ5K8TmS2qb+ChVKv1+Ma61jxLBs5vu9lUCebCFLw0AAxqE6zrT/vIQ==",
+  "dgSpecHash": "GffzWBTjuKaxoZG64IX3F+hYSnwO3M2W5SZ8sKNpmmF10FhYBLL39jmj+sxe2jc7wnkbgvMn0+DSFPh40zyfJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\source\\repos\\ReCapProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

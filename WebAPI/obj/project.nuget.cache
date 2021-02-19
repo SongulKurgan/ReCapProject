@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GffzWBTjuKaxoZG64IX3F+hYSnwO3M2W5SZ8sKNpmmF10FhYBLL39jmj+sxe2jc7wnkbgvMn0+DSFPh40zyfJA==",
+  "dgSpecHash": "0m0cPW86qJIBmZrHiZPj5CxvLxI1hqwPB5i9bLNYGMuY6QcmZUVTSV5pyQSAoUq7Exm2KIIHqlek5NepgSus6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\source\\repos\\ReCapProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Asus\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

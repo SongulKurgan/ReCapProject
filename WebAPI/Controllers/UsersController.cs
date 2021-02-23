@@ -19,6 +19,7 @@ namespace WebAPI.Controllers
         {
             _userService = userService;
         }
+
         [HttpPost("add")]
         public IActionResult Add(User user)
         {
@@ -29,7 +30,6 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
-
         [HttpDelete("delete")]
         public IActionResult Delete(User user)
         {

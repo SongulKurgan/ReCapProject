@@ -27,9 +27,8 @@ namespace WebAPI.Controllers
             {
                 return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
-
         [HttpDelete("delete")]
         public IActionResult Delete(Car car)
         {
@@ -38,9 +37,9 @@ namespace WebAPI.Controllers
             {
                 return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
-        
+
         [HttpGet("getall")]
         public IActionResult GetAll()
         {
@@ -49,8 +48,9 @@ namespace WebAPI.Controllers
             {
                 return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
+
         [HttpGet("getbyid")]
         public IActionResult GetById(int id)
         {
@@ -59,8 +59,9 @@ namespace WebAPI.Controllers
             {
                 return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
+
         [HttpGet("getallcardetails")]
         public IActionResult GetAllCarDetails()
         {
@@ -69,8 +70,9 @@ namespace WebAPI.Controllers
             {
                 return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
+
         [HttpPut("update")]
         public IActionResult Update(Car car)
         {
@@ -79,7 +81,7 @@ namespace WebAPI.Controllers
             {
                 return Ok(result);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
     }
 }

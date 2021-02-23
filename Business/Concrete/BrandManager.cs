@@ -44,13 +44,10 @@ namespace Business.Concrete
             return new SuccessDataResult<Brand>(_brandDal.Get(c => c.BrandId == id));
         }
 
+        [ValidationAspect(typeof(BrandValidator))]
         public IResult Update(Brand brand)
         {
-            if (brand.BrandName.Length > 2)
-            {
-                _brandDal.Update(brand);
-                return new SuccessResult(Messages.BrandUpdated);
-            }
+            _brandDal.Update(brand);
             return new SuccessResult(Messages.FailedBrandAddOrUpdate);
         }
     }

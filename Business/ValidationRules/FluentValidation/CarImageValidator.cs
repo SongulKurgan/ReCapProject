@@ -6,9 +6,9 @@ using System.Text;
 
 namespace Business.ValidationRules.FluentValidation
 {
-    public class CarImageValidation: AbstractValidator<CarImage>
+    public class CarImageValidator : AbstractValidator<CarImage>
     {
-        public CarImageValidation()
+        public CarImageValidator()
         {
             RuleFor(c => c.CarId).NotEmpty();
         }

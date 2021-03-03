@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -40,10 +41,20 @@ namespace Business.Constants
         public static string ReturnedRental = "Kiraladığınız araç teslim edildi.";
 
 
-
         public static string AddedCarImage = "Araba için yüklenilen resim başarıyla eklendi.";
         public static string DeletedCarImage = "Arabanın resmi başarıyla silindi.";
         public static string UpdatedCarImage = "Araba için yüklenilen resim başarıyla güncellendi.";
         public static string FailedCarImageAdd = "Bir araba 5'den fazla resme sahip olamaz.";
+
+        public static string AuthorizationDenied="Yetkiniz yok";
+
+
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Şifre hatalı";
+        public static string SuccessfulLogin = "Sisteme giriş başarılı";
+        public static string UserAlreadyExists = "Bu kullanıcı zaten mevcut";
+        public static string UserRegistered = "Kullanıcı başarıyla kaydedildi";
+        public static string AccessTokenCreated = "Access token başarıyla oluşturuldu";
+        internal static string DeletedColor;
     }
 }

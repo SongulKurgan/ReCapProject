@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace DataAccess.Concrete.EntityFramework
+namespace DataAccess.Concrete.EntityFramework.Repository
 {
     public class EfUserDal : EfEntityRepositoryBase<User, RentACarContext>, IUserDal
     {

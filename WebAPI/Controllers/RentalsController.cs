@@ -73,6 +73,7 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
+
         [HttpPut("update")]
         public IActionResult Update(Rental rental)
         {

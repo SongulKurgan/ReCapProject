@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
@@ -58,9 +59,13 @@ namespace Business.Concrete
 
         }
 
-        public IDataResult<List<CarImage>> GetAll(Expression<Func<CarImage, bool>> filter = null)
+        public IDataResult<List<CarImage>> GetAll()
         {
-            return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(filter));
+            return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll());
+        }
+        public IDataResult<List<CarImage>> GetByCarId(int carId)
+        {
+            return new SuccessDataResult<List<CarImage>>(GetDefaultIfNull(carId));
         }
 
         public IDataResult<CarImage> GetById(int id)
@@ -87,5 +92,16 @@ namespace Business.Concrete
 
             return new SuccessResult();
         }
+
+        private List<CarImage> GetDefaultIfNull(int carId)
+        {
+            string path = @"default.jpg";
+            var result = _carImageDal.GetAll(c => c.CarId == carId);
+            if (!result.Any())
+                return new List<CarImage> { new CarImage { CarId = carId, ImagePath = path } };
+            return result;
+        }
+        
+
     }
 }
